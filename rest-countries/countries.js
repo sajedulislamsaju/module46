@@ -16,7 +16,7 @@ const displayCountries = countries =>{
 
 const getcountriesHTML = country =>{
     return `
-    <div>
+    <div class="countryes">
         <img src="${country.flags.png}" alt="">
         <h2>Name : ${country.name.common}</h2>
         <p>Area : ${country.area}</p>
